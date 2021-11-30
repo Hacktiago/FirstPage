@@ -21,3 +21,21 @@ body{
 #content{
 	font-color: #0F2E87;
 }
+
+.content2{
+	column-count: 4;
+	column-width: 300px;
+	/*column-fill: initial;*/
+	column-gap: 10px;
+	column-rule: 3px solid rgb(118,18,18) 
+
+}
+
+.content1{
+	column-count: 4;
+	column-width: 300px;
+	column-fill: initial;
+	column-gap: 10px;
+	column-rule: 3px solid rgb(118,18,18) 
+}
+

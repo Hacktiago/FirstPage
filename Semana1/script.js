@@ -25,3 +25,32 @@ function example (){
 
 	return[] 
 } 
+
+var news1 = document.getElementById("news1");
+var news2 = document.getElementById("news2");
+var news3 = document.getElementById("news3");
+var news4 = document.getElementById("news4");
+
+/*
+Aca lo unico que hice fue copiar y pegar, no logre obtener el dato del H3
+soy consiente de que se debe mejorar muchisimo.
+*/
+news1.addEventListener("click", function(event){
+	var content = document.getElementById("content");
+	content.innerHTML = "<h1>Xavi Entrenador</h1>";
+});
+
+news2.addEventListener("click", function(event){
+	var content = document.getElementById("content");
+	content.innerHTML = "<h1>¿Debería el Barça fichar a Dani Alves?</h1>";
+});
+
+news3.addEventListener("click", function(event){
+	var content = document.getElementById("content");
+	content.innerHTML = "<h1>¿Por qué se funde el Barça en los 20 últimos minutos?</h1>";
+});
+
+news4.addEventListener("click", function(event){
+	var content = document.getElementById("content");
+	content.innerHTML = "<h1>Oficial: el Bayern-Barça, a puerta cerrada</h1>";
+});
