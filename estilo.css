@@ -1,0 +1,41 @@
+html {
+	background-color: #0044DF;
+	color : #9C1D1D;
+}
+
+p,ul,li{
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+p{
+	color : #0F2E87;
+}
+
+body{
+	border: 5px solid black;
+	background-color: #76A0FF;
+}
+
+#content{
+	font-color: #0F2E87;
+}
+
+.content2{
+	column-count: 4;
+	column-width: 300px;
+	/*column-fill: initial;*/
+	column-gap: 10px;
+	column-rule: 3px solid rgb(118,18,18) 
+
+}
+
+.content1{
+	column-count: 4;
+	column-width: 300px;
+	column-fill: initial;
+	column-gap: 10px;
+	column-rule: 3px solid rgb(118,18,18) 
+}
+
